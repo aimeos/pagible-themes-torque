@@ -212,7 +212,7 @@ header nav details.is-menu > summary:not([role]) {
     align-items: center;
     list-style: none;
     cursor: pointer;
-    padding: 0.7rem 0.5rem;
+    padding: 0.7rem 0.75rem;
     color: var(--pico-contrast);
     font-family: var(--pico-font-family-display);
     font-size: calc(var(--pico-font-size) * 0.9);
@@ -259,7 +259,7 @@ header nav details.dropdown ul a {
 @media (min-width: 992px) and (max-width: 1279px) {
     header nav a,
     header nav details.is-menu > summary:not([role]) {
-        padding-inline: 0.375rem;
+        padding-inline: 0.5rem;
     }
 
     header nav ul.menu > li.phone {
